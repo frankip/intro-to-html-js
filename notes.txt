@@ -1,0 +1,21 @@
+Git work flow 
+
+step 1 
+    initialize local repo
+    git init
+
+step 2
+    add your file to the project and start tracking using git
+    git add
+
+step 3 
+    commit our work with a a commit messsage
+    git commit -m ""
+
+step 4 
+    create remote repo and link out local git to remote git hub
+    git remote add origin git@github.com:frankip/intro-to-html-js.git
+
+Step 5 
+    push out local work to remote 
+    git push -u origin main
